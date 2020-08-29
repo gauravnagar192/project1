@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Russo+One&display=swap');
+
+
+body {
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    background: #2c3e50;
+}
+#logo {
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    font-size: 1vw;
+    font-family: 'Russo One', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#order {
+    padding: 10px;
+    font-size: 1vw;
+    font-family: 'Russo One', sans-serif;
+    color: #FFFFFF;
+}
+#order > i {
+    margin: 0px 10px;
+}
+#ah {
+    text-align: center;
+    font-size: 4vw;
+    margin: 4vw 0vw;
+    font-family: 'Alata', sans-serif;
+    color: #f39c12;
+}
+#l1 {
+    text-align: center;
+    font-size: 2vw;
+    margin: 4vw 0vw;
+    font-family: 'Alata', sans-serif;
+}
+#as-form {
+    background: #d3d3d3;
+    padding: 2vw;
+    margin: 2vw;
+}
+#f-s1 , #f-s2 {
+    display: flex;
+    justify-content: center;
+}
+.f-line {
+    display: inline-block;
+}
+.l {
+    margin: 1vw 0vw;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.5vw;
+}
+.fi {
+    margin: 1vw;
+    border: none;
+    width: 10vw;
+    height: 2vw;
+}
+.fi:focus{
+    outline: none;
+}
+#fa {
+    padding: 1vw 2vw;
+    background: #f39c12;
+    font-size: 1.5vw;
+    font-family: 'Alata', sans-serif;
+    display: block;
+    border: none;
+    margin: 1vw 0vw;
+    color: #FFFFFF;
+}
+#info-sec {
+    margin: 2vw;
+    background: rgb(243, 156, 18);
+    font-size: 1.2vw;
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+#info-list1 {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(243, 156, 18);
+    color: #FFFFFF;
+}
+#info-list2 {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(243, 156, 18);
+    color: #FFFFFF;
+}
+li {
+    margin: 2vw 0vw;
+}
